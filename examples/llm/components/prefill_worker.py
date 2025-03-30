@@ -100,7 +100,6 @@ class PrefillWorker:
             try:
                 fut.result()
                 print("prefill queue handler created successfully")
-                # Do something with result if needed
             except Exception as e:
                 print(f"prefill queue handler failed: {e}")
                 sys.exit(1)
